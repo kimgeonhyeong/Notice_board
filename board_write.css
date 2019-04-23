@@ -1,0 +1,81 @@
+html{
+    background-color:aliceblue;
+    background-image: url('background.jpg'); 
+}
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 5px;
+
+}
+
+.main_log{
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main_box{
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.pass{
+    margin: auto;
+    width: 310px;
+    margin-left: 62.7%;
+}
+.writer{
+    float: left;
+    margin-left: 10%;
+}
+.title{
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.comment{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.button_box{
+    text-align: center;
+}
+.button_write, .button_cancell{
+    border-radius: 10px;
+    border: 0;
+    height: 30px;
+    color: #f5f6f7;
+    background-color: rgb(0, 0, 88);
+
+}
+.button_write{
+    width: 70px;
+}
+
+.button_cancell{
+    margin-left: 100px;
+}
+.back{
+    border: 0;
+    background-color:RGBA(0,0,0,0);
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s;
+    position: relative; 
+    z-index: 1;
+  }
+  .back:hover{
+    color: RGB(253,240,27);
+  }
+  .background{
+    height: 640px;
+    width: 1350px;
+    margin: auto;
+    background-color: rgb(255, 255, 255,0.3);
+    border-radius: 0.7em;
+}
